@@ -25,3 +25,52 @@ body {
 
 
 
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    background-image: linear-gradient(to right,#204FE3 , #E34FE3, #E34F7A);
+    
+    
+}
+
+#wrapper {
+    background-color: white;
+    opacity: 1;
+}
+
+#container {
+    width: 660px;
+    height: 660px;
+    display: inline-grid;
+    box-shadow: 2px 15px 15px;
+    opacity: 1;
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 0.3;
+    
+}
+
+.hovered {
+    background-color: black;
+    opacity: 1;
+}
+
+.reset {
+    margin-top: 100px;
+    padding: 3px  17px 3px 17px;
+    background-color: #6ADCA5;
+    border: 1px solid white;
+    border-radius: 8px;
+}
