@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+#container {
+    margin-top: 200px;
+    width: 660px;
+    height: 660px;
+    display: inline-grid;
+    box-shadow: 2px 15px 15px;
+    opacity: 1;
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 0.3;
+    
+}
+
+
+
